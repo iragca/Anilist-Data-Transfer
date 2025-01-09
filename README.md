@@ -64,6 +64,6 @@ python .\src\data_transfer.py
 
 ## <a id="EDA"></a>Exploratory Data Analysis
 
-Basic reports are made for each table and are available on project folder [root/eda]([https://github.com/iragca/anilist-data-transfer/tree/main/src](https://github.com/iragca/Anilist-Data-Transfer/tree/main/eda))
+Basic reports are made for each table and are available on project folder [root/eda](https://github.com/iragca/Anilist-Data-Transfer/tree/main/eda)
 
 

@@ -8,7 +8,7 @@
 
   <h2></h2>
 
-This repository is for transfering data from the node based [AniList GraphQL database](https://docs.anilist.co/) to
+This repository is for transferring data from the node based [AniList GraphQL database](https://docs.anilist.co/) to
 a local DuckDB relational database. The anime entries retrieved are roughly ~13,000 rows as of 2025 January 10.
 
 > AniList database -> GraphQL API -> DuckDB

@@ -1,0 +1,103 @@
+query DefaultQuery($page: Int, $perPage: Int, $seasonYear: Int, $season: MediaSeason, $sort: [MediaSort]) {
+      Page (page: $page, perPage: $perPage) {
+        pageInfo {
+          currentPage
+          hasNextPage
+          perPage
+        }
+
+      media(seasonYear: $seasonYear, season: $season, sort: $sort) {
+        id
+        title {
+          english
+          native
+          romaji
+        }
+        format
+        episodes
+        meanScore
+        popularity
+        duration
+        favourites
+        genres
+        season
+        seasonYear
+        meanScore
+        tags {
+          id
+          isAdult
+          category
+          description
+        }
+        startDate {
+          day
+          month
+          year
+        }
+        endDate {
+          day
+          month
+          year
+        }
+        reviews {
+          nodes {
+            id
+            createdAt
+            updatedAt
+            rating
+            ratingAmount
+            body
+            summary
+            media {
+              id
+              season
+              seasonYear
+            }
+            user {
+              avatar {
+                large
+                medium
+              }
+              id
+              name
+              donatorTier
+              donatorBadge
+              createdAt
+            }
+          }
+        }
+        trailer {
+          id
+          site
+          thumbnail
+        }
+        siteUrl
+        studios {
+          nodes {
+            id
+            name
+            media {
+              nodes {
+                id
+                season
+                seasonYear
+              }
+            }
+          }
+          }
+        bannerImage
+        coverImage {
+          medium
+          large
+          extraLarge
+          color
+        }
+        stats {
+          statusDistribution {
+            amount
+            status
+          }
+        }
+      }
+      }
+      }

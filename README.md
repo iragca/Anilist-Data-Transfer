@@ -1,6 +1,13 @@
 <h1 align="center">Anilist Data Transfer</h1>
 <h3 align="center">Part of <a href="https://github.com/iragca/keikakku-dashboards">Keikakku Dashboards</a></h3>
 
+<h3>Quicklinks</h3>
+
+- [Getting Started](#Getting-Started)
+- [Exploratory Data Analysis](#EDA)
+
+  <h2></h2>
+
 This repository is for transfering data from the node based [AniList GraphQL database](https://docs.anilist.co/) to
 a local DuckDB relational database. The anime entries retrieved are roughly ~13,000 rows as of 2025 January 10.
 

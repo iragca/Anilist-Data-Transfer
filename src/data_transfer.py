@@ -5,7 +5,7 @@ processes the data, and inserts it into a DuckDB database.
 
 Usage:
     # From the project root directory
-    $ python data_transfer.py <start_year> <end_year> <cooldown>
+    $ python data_transfer.py <inclusive: start_year> <exclusive: end_year> <optional: cooldown>
 
 Arguments:
     start_year (int): The starting year for data retrieval.
@@ -49,7 +49,12 @@ if len(sys.argv) > 1:
     end_year = int(sys.argv[2])
     COOLDOWN = int(sys.argv[3]) if len(sys.argv) > 3 else 10
 else:
-    sys.exit("Please provide a start and end year as kwargs.")
+    sys.exit(
+        (
+        "Please provide a start and end year as kwargs. "
+        "python <inclusive: start_year> <exclusive: end_year> <optional: cooldown>"
+        )
+        )
 
 ## GraphQL query to retrieve data from Anilist
 with open(r"src/utils/api_query.graphql", "r", encoding="UTF-8") as file:

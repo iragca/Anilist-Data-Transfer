@@ -2,7 +2,7 @@
   "name": "Keikakku Dashboards",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "postCreateCommand": "bash setup.sh",
-  "postAttachCommand": "source .venv/bin/activate",
+  "postAttachCommand": "source .venv/bin/activate; pip install -r requirements.txt",
 
   // Container specs
   "hostRequirements": {

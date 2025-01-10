@@ -36,6 +36,10 @@ a local DuckDB relational database. The anime entries retrieved are roughly ~13,
 
 ## <a id="Getting-Started"></a>Getting Started
 
+
+https://github.com/user-attachments/assets/7a25466b-d1a9-4c4f-8259-7d8bf6b89396
+
+
 Requirements:
 
 - Python

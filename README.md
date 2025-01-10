@@ -46,7 +46,7 @@ bash setup.sh
 source .venv/bin/activate
 pip install -r requirements.txt
 python src/init_db.py
-python src/data_transfer.py
+python src/data_transfer.py 1940 2025 10 # <inclusive: start year> <exclusive: end year> <optional: cooldown; default: 10>
 ```
 
 <div style="font-weight: bold; margin-bottom: 5px;">Powershell</div>
@@ -59,7 +59,7 @@ virtualenv .venv
 source .\.venv\Scripts\activate
 pip install -r requirements.txt
 python .\src\init_db.py
-python .\src\data_transfer.py
+python .\src\data_transfer.py 1940 2025 10 # <inclusive: start year> <exclusive: end year> <optional: cooldown; default: 10>
 ```
 
 ## <a id="EDA"></a>Exploratory Data Analysis

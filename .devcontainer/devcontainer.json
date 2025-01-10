@@ -1,8 +1,6 @@
 {
   "name": "Keikakku Dashboards",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "postCreateCommand": "bash setup.sh",
-  "postAttachCommand": "source .venv/bin/activate; pip install -r requirements.txt",
 
   // Container specs
   "hostRequirements": {
@@ -16,14 +14,7 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "GitHub.copilot",
-        "ms-python.python", // Python extension
-        "ms-toolsai.jupyter", // Jupyter extension
-        "esbenp.prettier-vscode", // Markdown formatter
-        "njpwerner.autodocstring", // Templated docstrings
-        "KevinRose.vsc-python-indent", // autoindentation
-        "usernamehw.errorlens", // ErrorLens for inline debugging
-        "charliermarsh.ruff" // Ruff linter and formatter
+        "yandeu.five-server"
       ]
     }
   }

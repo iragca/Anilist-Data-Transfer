@@ -30,12 +30,16 @@ a local DuckDB relational database. The anime entries retrieved are roughly ~13,
 <strong>ℹ️ Info:</strong> Primary keys are for enforcing uniqueness. Foreign keys are not recommended as GraphQL is inherently node based and not relational.
 </div>
 
+#### Relevant / Similar Repositories
 
-### <a id="Requirements"></a>Requirements
+- https://github.com/manami-project/anime-offline-database
+
+## <a id="Getting-Started"></a>Getting Started
+
+Requirements:
 
 - Python
 
-## <a id="Getting-Started"></a>Getting Started
 
 <div style="font-weight: bold; margin-bottom: 5px;">Linux</div>
 

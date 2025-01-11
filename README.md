@@ -24,11 +24,8 @@ a local DuckDB relational database. The anime entries retrieved are roughly ~13,
 - **Tag:** Stores tags associated with anime.
 - **Genre:** Stores genres associated with anime.
 
-<br>
- 
-<div style="border: 1px solid #007BFF; background-color: #E9F7FE; padding: 10px; border-radius: 5px; color: #0056b3;">
-<strong>ℹ️ Info:</strong> Primary keys are for enforcing uniqueness. Foreign keys are not recommended as GraphQL is inherently node based and not relational.
-</div>
+> [!NOTE]
+> Primary keys are for enforcing uniqueness. Foreign keys are not recommended as GraphQL is inherently node based and not relational.
 
 #### Relevant / Similar Repositories
 
